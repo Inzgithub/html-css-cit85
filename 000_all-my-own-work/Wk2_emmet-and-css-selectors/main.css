@@ -21,8 +21,14 @@
     font-size: 20;
     margin-left: 100;
 }
+header {
+    height: 100%;
+    width: 100%;
+    color: gray;
+    font-size: 100px;
+}
 
-.id {
-    text-align: center;
-    color: hotpink
+#promote {
+    color: hotpink;
+    font-size: 22  ;
 }
