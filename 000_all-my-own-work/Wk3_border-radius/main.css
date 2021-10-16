@@ -1,0 +1,9 @@
+div {
+    width: 80px;
+    height: 50px;
+    border-radius: 50% 50% 60% 40%;
+    border: solid yellow;
+    background-color: yellow;
+    margin: 8px;
+    display: inline-block;
+}
