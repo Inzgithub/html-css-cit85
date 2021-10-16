@@ -1,0 +1,23 @@
+.cloudy {
+    color: purple;
+    font-size: 20;
+    margin-left: 100;
+}
+
+.sunny {
+    color: green;
+    font-size: 20;
+    margin-left: 100;
+}
+
+.stormy {
+    color:blue;
+    font-size: 20;
+    margin-left: 100;
+}
+
+.windy {
+    color: orange;
+    font-size: 20;
+    margin-left: 100;
+}
