@@ -1,0 +1,16 @@
+/* this means that the links you see are blue*/
+a:link{
+    color: blue;;
+}
+/*this means that the links you have clicked on turn green*/
+a:visited{
+    color: green;;
+}
+/*this means that when you hover on a link, it turns red*/
+a:hover{
+    color: red;
+}
+/*this means that when you click on the link, it momentarily turns pink*/
+a:active{
+    color: pink;;
+}
