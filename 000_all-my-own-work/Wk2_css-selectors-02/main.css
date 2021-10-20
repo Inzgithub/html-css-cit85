@@ -1,0 +1,21 @@
+li:first-child{
+    color:orchid 
+}
+li:last-child {
+    color: orange;
+}
+li:nth-child(5) {
+    color: lightgreen;
+}
+li:nth-child(even) {
+    background-color: lightgrey;
+}
+li:nth-child(odd) {
+    background-color: grey;
+}
+p:nth-child(3n+2) {
+    color: red;
+}
+p:only-child {
+    color:blueviolet
+}
