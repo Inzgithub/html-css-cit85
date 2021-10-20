@@ -1,0 +1,9 @@
+p:first-letter {
+    color: purple;
+    font-size: xx-large;
+}
+
+P::first-line {
+    font-weight: 900;
+    font-variant: small-caps;
+}

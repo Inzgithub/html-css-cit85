@@ -1,0 +1,28 @@
+.pug {
+    color: green;
+}
+
+.bouncy { 
+      color: blue
+}
+
+.hotdog {
+    color: brown;
+}
+
+#paragraph {
+    color: teal;
+}
+div {
+    border:5px dotted black;
+    height: auto;
+    width: auto;
+}
+p:nth-child(even) {
+    background-color: lightgrey;
+}
+p nth{
+    border: 5px solid red;
+    height: auto;
+    width: auto;
+}
