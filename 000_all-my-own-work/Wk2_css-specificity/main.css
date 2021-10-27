@@ -1,28 +1,68 @@
+/*specificity of 100*/
+#paragraph {
+    background-color: gray;
+    border: 5px red solid;
+    color: yellow;
+}
+/*specificity of 010*/
+
 .pug {
     color: green;
 }
 
+/*specificity of 010*/
 .bouncy { 
-      color: blue
+    color: blue;
+    width: 100%;
 }
 
+/*specificity of 010*/
+.bouncy { 
+    color: violet;
+    width: 100%;
+}
+
+
+/*specificity of 010*/
 .hotdog {
     color: brown;
 }
-
-#paragraph {
-    color: teal;
-}
-div {
-    border:5px dotted black;
-    height: auto;
-    width: auto;
-}
+/*specificity of 011*/
 p:nth-child(even) {
-    background-color: lightgrey;
-}
-p nth{
-    border: 5px solid red;
+    border: 5px red solid;
+    width: 50%;
     height: auto;
-    width: auto;
+    color: black;
+}
+/*specificity of 011*/
+p:nth-child(odd) {
+    height: auto;
+    width: 60%;
+    color: purple;
+}
+
+
+/*specificity of 001*/
+h1 {
+    border:5px dotted orange;
+    height: auto;
+    width: 50%;
+    color: violet;
+}
+
+
+/*specificity of 001*/
+div {
+    border:5px dotted purple   ;
+    height: auto;
+    width: 100%;
+    color: turquoise;
+}
+
+/*specificity of 001*/
+p {
+    border:10px solid blue;
+    height: auto;
+    width: 80%;
+    color: orange;
 }
