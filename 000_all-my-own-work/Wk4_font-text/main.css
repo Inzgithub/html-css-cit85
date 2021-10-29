@@ -1,0 +1,58 @@
+/*(1) Use a generic serif font in an HTML document.
+(2) Use a generic san-serif font in an HTML document.
+(3) Use a font from Google fonts that has different font-weights. Use the different font-weights.
+(4) Using CSS, transform all of the text of a sentence to uppercase and italic.
+(5) Set spacing between characters in a short phrase.
+(6) Add shadow to the text in a H1 tag.
+(7) Remove the underline on an anchor tag. And then add the underline in when someone hovers over the link.
+(8) Show text that is no longer relevant by putting a line through it.
+(9) Indent the first line of a paragraph*/
+
+h1 {
+    text-shadow: 1px 3px 5px black;
+}
+p.first {
+    font-family: serif;
+    font-size: 1rem;
+    text-indent: 10%;
+}
+p.second {
+    font-family: sans-serif;
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+p.third{
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+}
+p.fourth {
+    font-family: sans-serif;
+    font-size: 1rem;
+
+    letter-spacing: 1rem;
+}
+p.fifth {
+    font-family: Amatic SC;
+    font-size: 2rem;
+    font-weight: 400;
+}
+p.sixth {
+    font-family: Amatic SC;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-decoration-line: none;
+}
+a:hover {
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid    
+}
