@@ -1,0 +1,17 @@
+div {
+   /* divs have a default siplay property of block*/
+   box-sizing: border-box;
+   width: 300px;
+   padding: 1%;
+   border:1px solid black;
+   margin: 1%;
+}
+
+span {
+    /*spans have a default display property of inline*/
+    box-sizing: border-box;
+    width: 300px;
+    padding: 1%;
+    border: 1px solid blue;
+    margin: 1%;
+}
