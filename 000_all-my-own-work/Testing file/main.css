@@ -1,0 +1,9 @@
+ul {
+    border: black 1px solid;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50px;
+}

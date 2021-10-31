@@ -1,0 +1,30 @@
+header {
+    display: block;
+    background-color: lightgray;
+    height: 6rem;
+    font-size: 3rem;
+    text-align: center;
+}
+section {
+    display: inline-block;
+    background-color: lightgray;
+    margin: 5px;
+    height: 15rem;
+    width: 50%;
+    text-align: center;
+}
+article {
+    background-color: grey;
+    height: 50%;
+}
+aside {
+    display: inline-block;
+    background-color: lightgray;
+    height: 15rem;
+    width: 49%;
+}
+footer {
+    background-color: lightgray;
+    height: 5rem;
+    margin: 5px;
+}
