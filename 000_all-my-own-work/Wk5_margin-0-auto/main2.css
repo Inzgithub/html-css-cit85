@@ -1,0 +1,28 @@
+* {
+    border: dashed hotpink 2px;
+}
+body {
+    width: 60%;
+    margin: 5% auto;
+    padding: 5%;
+}
+div {
+    border: black 1px solid;
+    border-radius: 10%;
+    display: block;
+    width: 100px;
+    height: 80px;
+    margin: 2% auto;
+}
+div:nth-child(1){
+    background-color: red;
+}
+div:nth-child(2){
+    background-color: blue;
+}
+div:nth-child(3){
+    background-color: yellow;
+}
+div:nth-child(4){
+    background-color: green;
+}
