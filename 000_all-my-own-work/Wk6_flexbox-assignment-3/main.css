@@ -1,0 +1,35 @@
+body {
+    border: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div {
+    border: black 1px solid;
+    height: 200px;
+    width: 1000px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+}
+.Happy1 {
+    background-color: red;
+    width: 100%;
+}
+.Happy2 {
+    background-color: lightskyblue;
+    flex-grow: 3;
+}
+.Happy3 {
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+.Happy4 {
+    background-color: yellow;
+    flex-grow: 1;
+}
+.Happy5 {
+    background-color: purple;
+    flex-grow: 1;
+}
