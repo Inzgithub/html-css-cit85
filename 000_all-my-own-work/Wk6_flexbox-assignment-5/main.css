@@ -1,0 +1,31 @@
+body {
+    border: red solid 2px;
+    box-sizing: border-box;
+    margin: 0 20% 0 20%;
+    display: flex;
+    flex-flow: wrap row;
+    height: 500px;
+    width: 1000px;
+    color: white;
+    font-size: 2rem;
+}
+
+.Happy1 {
+    background-color: navy;
+    height: 100%;
+    width: 25%;
+}
+.Happy4 {
+    width: 75%;
+    height: 50%;
+}
+.Happy2 {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+.Happy3 {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 100%;
+}
