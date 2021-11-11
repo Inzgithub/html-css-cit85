@@ -14,7 +14,7 @@ div {
 
 ul {
     display: flex;
-    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    padding: 2px;
 }

@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#s2 {
+    width: 100%;
+}
+
+#s3 {
+    width: 100%;
+}
+   
