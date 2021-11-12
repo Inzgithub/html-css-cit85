@@ -1,0 +1,21 @@
+a {
+    display: block;
+    padding: 50px 0px;
+    text-decoration: none ;
+    color: white;
+    text-align: center;
+    border-top: 1px solid lightsteelblue;
+    border-bottom: 1px solid lightslategray;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    background: deepskyblue;
+}
+
+a:hover {
+    background: royalblue;
+}
