@@ -1,0 +1,28 @@
+html {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header, aside, footer {
+    text-align: center;
+}
+
+header {
+    background-color: tomato;;
+}
+article {
+    background-color: skyblue;
+}
+
+.first {
+    background-color: yellow;
+}
+
+.second {
+    background-color: violet;
+}
+
+footer {
+    background-color: lightgreen;
+}
