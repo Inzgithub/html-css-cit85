@@ -1,0 +1,22 @@
+html {
+    color: white;
+    font-weight: 700;
+    font-size: 8rem;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+p {
+    color: black;
+    font-size: .5rem;
+    text-align: left;
+}
