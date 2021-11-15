@@ -1,0 +1,17 @@
+div, img{
+    border: red 1px solid;
+    margin: 20px;
+}
+img {
+    height: 200px;
+}
+div {
+    overflow: auto;
+}
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
