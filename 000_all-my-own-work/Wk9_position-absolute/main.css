@@ -1,0 +1,26 @@
+div {
+    border: hotpink dashed 1px;
+    height: 200px;
+    width: 200px;
+}
+
+.position1 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.position2 {
+background-color: rgba(50, 79, 122, 0.308);
+}
+
+.position3 {
+    background-color: rgba(76, 0, 130, 0.281);
+}
+
+.position4 {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+}

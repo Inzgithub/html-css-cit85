@@ -1,0 +1,24 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline solid rebeccapurple;
+}
+article {
+    margin-bottom: 1rem;
+}
+div {
+    background-color: rgba(80, 26, 66, 0.384);
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+    position: fixed;
+    bottom: 0;;
+}
+
+

@@ -1,0 +1,19 @@
+h1 {
+    text-align: right;
+    text-decoration: seagreen underline 5px
+}
+
+div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+    width: 200px
+;    margin-bottom: 1rem;
+    border: seagreen 1px solid;
+}
+
+.rel2 {
+    background-color: rgba(46, 139, 86, 0.425);
+    position: relative;
+    left: 33%;
+}
