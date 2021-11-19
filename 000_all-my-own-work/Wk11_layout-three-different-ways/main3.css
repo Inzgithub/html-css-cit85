@@ -1,0 +1,29 @@
+ 
+div {
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+span{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.float1{
+    background-color: yellow;
+}
+.float2 {
+    background-color: lightskyblue;
+    width: 19%;
+}
+
+.float3 {
+    background-color: green;
+    width: 80%;
+}
+
+.float4 {
+    background-color: purple;
+}

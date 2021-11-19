@@ -1,0 +1,32 @@
+
+body {
+    border:0;
+    margin: 0;
+    padding: 0; 
+}
+div{
+    border: solid 1px black;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: yellow;
+}
+
+.float2 {
+    width: 19%;
+    float: left;
+    background-color: lightskyblue;
+}
+
+.float3 {
+    width: 80%;
+    float: right;
+    background-color: green;
+
+}
+
+.float4 {
+    background-color: purple;
+    clear: left;
+}
