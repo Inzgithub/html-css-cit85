@@ -1,0 +1,70 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+header {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 0px;
+    }
+    
+h3 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 0px;
+}
+
+h4 {
+    font-size: 1rem;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    line-height: 5rem;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+a:link, :visited{
+    color: black;
+}
+
+a:hover{
+    color: slategray
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    font-size: .6rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+img {
+    display: inline-block;
+    border: solid 1px black;
+    width: 49%;
+    height: auto;
+    border-radius: 25%;
+}
+
+.custom {
+ box-shadow: slategray 5px 5px 5px 5px
+}

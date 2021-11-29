@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(img-bw-modern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
