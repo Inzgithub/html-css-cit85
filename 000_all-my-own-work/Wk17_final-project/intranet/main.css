@@ -1,0 +1,103 @@
+html,body,header, h1, nav, ul, h2, article {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+header {
+    width: 100vw;
+    height: 180px ;
+    background-color: rgb(121, 161, 175);
+    text-align: center;
+    line-height: 2;
+    font-size: 3rem;
+    font-variant: small-caps;
+    border-bottom: 5px solid black;
+}
+
+.logo {
+    float: left;
+    height: 150px;
+    width: 150px;
+    border: 5px double black;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px  gray;
+}
+ 
+nav {
+    width: 15%;
+    height: 80vh;
+    line-height: 2.5rem;
+    border-right: black 5px solid;
+    font-size: 1rem;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover {
+    text-decoration: none;
+background-color: lightskyblue;
+}
+a:active {
+    text-decoration: none;
+    color: blueviolet;
+}
+article {
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ h2 {
+     line-height: 3rem;
+     font-size: 2rem;
+     font-variant: small-caps;
+     background-color: rgb(169, 202, 214);
+     align-items: right;
+ }
+ .announcements{
+     text-align: center;
+     width: 100%;
+ }
+
+h3{
+    width: 18%;
+    padding-right: 2%;
+    text-align: right;
+}
+ p {
+    width: 80%;
+}
+img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 44%;
+    border-left: black 5px solid;
+    border-right: black 5px solid;;
+    object-fit: cover;
+    overflow: hidden;
+    object-position:right;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    opacity: 40%;
+}
